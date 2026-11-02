@@ -2,18 +2,13 @@
 
 > **Read-only archive of released versions of huseyinfiliz/custom-profile-page.** Not for installation: use [Packagist](https://packagist.org/packages/huseyinfiliz/custom-profile-page) or the [upstream repository](https://github.com/huseyinfiliz/custom-profile-page).
 
-**6** versions archived · Latest: [`1.0`](https://github.com/flarchive/huseyinfiliz-custom-profile-page/tree/archive/v1.0) · License: `MIT` · Flarum: `^1.2.0`
+**0** versions archived · Latest: [`2.0.0`](https://github.com/flarchive/huseyinfiliz-custom-profile-page/tree/archive/v2.0.0) · License: `MIT` · Flarum: `^2.0.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| `0.1.1` | 2025-10-08 | `^1.2.0` | [Browse](https://github.com/flarchive/huseyinfiliz-custom-profile-page/tree/archive/v0.1.1) |
-| `0.2` | 2025-10-10 | `^1.2.0` | [Browse](https://github.com/flarchive/huseyinfiliz-custom-profile-page/tree/archive/v0.2) |
-| `0.3` | 2025-10-13 | `^1.2.0` | [Browse](https://github.com/flarchive/huseyinfiliz-custom-profile-page/tree/archive/v0.3) |
-| `1.0` | 2025-12-08 | `^1.2.0` | [Browse](https://github.com/flarchive/huseyinfiliz-custom-profile-page/tree/archive/v1.0) |
-| `v0` | 2025-10-07 | `^1.2.0` | [Browse](https://github.com/flarchive/huseyinfiliz-custom-profile-page/tree/archive/v0) |
-| `v0.1` | 2025-10-08 | `^1.2.0` | [Browse](https://github.com/flarchive/huseyinfiliz-custom-profile-page/tree/archive/v0.1) |
+| — | — | — | — |
 
 Catalog entry: [packages/huseyinfiliz-custom-profile-page.json](https://github.com/flarchive/archive-index/blob/main/packages/huseyinfiliz-custom-profile-page.json)
 
