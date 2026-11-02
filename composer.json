@@ -1,0 +1,80 @@
+{
+    "name": "huseyinfiliz/custom-profile-page",
+    "description": "Adds customizable pages to user profiles",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "php": "^8.3",
+        "ezyang/htmlpurifier": "^4.18",
+        "flarum/core": "^2.0.0"
+    },
+    "authors": [
+        {
+            "name": "Hüseyin Filiz",
+            "email": "mysuperuser01@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HuseyinFiliz\\CustomProfilePage\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Custom Profile Page",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-user-edit",
+                "backgroundColor": "#3498db",
+                "color": "#fff"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "jsCommon": true,
+                "css": true,
+                "locale": true,
+                "gitConf": true,
+                "githubActions": true,
+                "prettier": true,
+                "typescript": true,
+                "bundlewatch": false,
+                "backendTesting": true,
+                "editorConfig": true,
+                "styleci": true
+            }
+        }
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "autoload-dev": {
+        "psr-4": {
+            "HuseyinFiliz\\CustomProfilePage\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": [
+            "@test:unit",
+            "@test:integration"
+        ],
+        "test:unit": "phpunit -c tests/phpunit.unit.xml",
+        "test:integration": "phpunit -c tests/phpunit.integration.xml",
+        "test:setup": "@php tests/integration/setup.php"
+    },
+    "scripts-descriptions": {
+        "test": "Runs all tests.",
+        "test:unit": "Runs all unit tests.",
+        "test:integration": "Runs all integration tests.",
+        "test:setup": "Sets up a database for use with integration tests. Execute this only once."
+    },
+    "require-dev": {
+        "flarum/testing": "^2.0.0"
+    }
+}
